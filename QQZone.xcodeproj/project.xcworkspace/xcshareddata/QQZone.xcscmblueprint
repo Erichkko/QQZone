@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "121656CE25C1DB3F4B481F9C272F8C3EA380EDAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "121656CE25C1DB3F4B481F9C272F8C3EA380EDAB" : 0,
+    "65D6DB69FC84550EA0B40BE6508B97475483A876" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "359E0332-9EA4-40EA-9C36-976C269EE17A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "121656CE25C1DB3F4B481F9C272F8C3EA380EDAB" : "QQZone\/",
+    "65D6DB69FC84550EA0B40BE6508B97475483A876" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QQZone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QQZone.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Erichkko\/QQZone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "121656CE25C1DB3F4B481F9C272F8C3EA380EDAB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Erichkko\/PinterestLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65D6DB69FC84550EA0B40BE6508B97475483A876"
+    }
+  ]
+}

@@ -8,24 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		FEAE16D21D3D141300247B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAE16D11D3D141300247B96 /* main.m */; };
-		FEAE16D51D3D141300247B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAE16D41D3D141300247B96 /* AppDelegate.m */; };
-		FEAE16D81D3D141300247B96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAE16D71D3D141300247B96 /* ViewController.m */; };
 		FEAE16DB1D3D141300247B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAE16D91D3D141300247B96 /* Main.storyboard */; };
 		FEAE16DD1D3D141300247B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAE16DC1D3D141300247B96 /* Assets.xcassets */; };
 		FEAE16E01D3D141300247B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAE16DE1D3D141300247B96 /* LaunchScreen.storyboard */; };
+		FEAE16F61D3D264400247B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAE16F41D3D264400247B96 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FEAE16CD1D3D141300247B96 /* QQZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAE16D11D3D141300247B96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FEAE16D31D3D141300247B96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FEAE16D41D3D141300247B96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEAE16D61D3D141300247B96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FEAE16D71D3D141300247B96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FEAE16DA1D3D141300247B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEAE16DC1D3D141300247B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEAE16DF1D3D141300247B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEAE16E11D3D141300247B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAE16F31D3D264300247B96 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEAE16F41D3D264400247B96 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +55,7 @@
 		FEAE16CF1D3D141300247B96 /* QQZone */ = {
 			isa = PBXGroup;
 			children = (
-				FEAE16D31D3D141300247B96 /* AppDelegate.h */,
-				FEAE16D41D3D141300247B96 /* AppDelegate.m */,
-				FEAE16D61D3D141300247B96 /* ViewController.h */,
-				FEAE16D71D3D141300247B96 /* ViewController.m */,
+				FEAE16EF1D3D264300247B96 /* Classes */,
 				FEAE16D91D3D141300247B96 /* Main.storyboard */,
 				FEAE16DC1D3D141300247B96 /* Assets.xcassets */,
 				FEAE16DE1D3D141300247B96 /* LaunchScreen.storyboard */,
@@ -77,6 +71,47 @@
 				FEAE16D11D3D141300247B96 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEAE16EF1D3D264300247B96 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE16F01D3D264300247B96 /* Controller */,
+				FEAE16F11D3D264300247B96 /* Model */,
+				FEAE16F21D3D264300247B96 /* Other */,
+				FEAE16F51D3D264400247B96 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FEAE16F01D3D264300247B96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEAE16F11D3D264300247B96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEAE16F21D3D264300247B96 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE16F31D3D264300247B96 /* AppDelegate.h */,
+				FEAE16F41D3D264400247B96 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FEAE16F51D3D264400247B96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEAE16D81D3D141300247B96 /* ViewController.m in Sources */,
-				FEAE16D51D3D141300247B96 /* AppDelegate.m in Sources */,
+				FEAE16F61D3D264400247B96 /* AppDelegate.m in Sources */,
 				FEAE16D21D3D141300247B96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = QQZone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mineline.QQZone;
@@ -275,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = QQZone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mineline.QQZone;
@@ -301,6 +337,7 @@
 				FEAE16E61D3D141300247B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
