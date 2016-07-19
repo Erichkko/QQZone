@@ -12,6 +12,7 @@
 		FEAE16DD1D3D141300247B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAE16DC1D3D141300247B96 /* Assets.xcassets */; };
 		FEAE16E01D3D141300247B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAE16DE1D3D141300247B96 /* LaunchScreen.storyboard */; };
 		FEAE16F61D3D264400247B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAE16F41D3D264400247B96 /* AppDelegate.m */; };
+		FEF4C77E1D3E69AA0030B9C0 /* WLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C77D1D3E69AA0030B9C0 /* WLLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		FEAE16E11D3D141300247B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEAE16F31D3D264300247B96 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEAE16F41D3D264400247B96 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEF4C77C1D3E69AA0030B9C0 /* WLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLLoginViewController.h; sourceTree = "<group>"; };
+		FEF4C77D1D3E69AA0030B9C0 /* WLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 		FEAE16F01D3D264300247B96 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FEF4C77C1D3E69AA0030B9C0 /* WLLoginViewController.h */,
+				FEF4C77D1D3E69AA0030B9C0 /* WLLoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 		FEAE16C51D3D141200247B96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WL;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wanglong;
 				TargetAttributes = {
@@ -185,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF4C77E1D3E69AA0030B9C0 /* WLLoginViewController.m in Sources */,
 				FEAE16F61D3D264400247B96 /* AppDelegate.m in Sources */,
 				FEAE16D21D3D141300247B96 /* main.m in Sources */,
 			);
