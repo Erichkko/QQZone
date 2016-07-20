@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  QQZone
+//
+//  Created by wanglong on 16/7/20.
+//  Copyright © 2016年 wanglong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+AdjustFrame.h"
+#import "UIImage+Fit.h"
+#import "WLConst.h"
+
+#endif /* PrefixHeader_pch */

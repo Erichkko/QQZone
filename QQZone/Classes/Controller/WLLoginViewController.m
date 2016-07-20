@@ -7,6 +7,7 @@
 //
 
 #import "WLLoginViewController.h"
+#import "WLMainViewController.h"
 
 @interface WLLoginViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loadIndicator;
@@ -69,7 +70,7 @@
     self.view.userInteractionEnabled = NO;
     
     //模拟网络请求
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         //细节操作
         [self.loadIndicator stopAnimating];
@@ -77,7 +78,11 @@
         
         
         if ([account isEqualToString:@"123"]&&[password isEqualToString:@"123"]) {
-            NSLog(@"登录成功...");
+            WLMainViewController *mainVc = [[WLMainViewController alloc] init];
+            [self presentViewController:mainVc animated:YES completion:nil];
+            
+//            self.view.window.rootViewController
+//            [UIApplication sharedApplication].keyWindow.rootViewController;
         }else{
             [self showErrorLogin:@"帐号或密码不正确..."];
         }

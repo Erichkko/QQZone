@@ -13,6 +13,12 @@
 		FEAE16E01D3D141300247B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAE16DE1D3D141300247B96 /* LaunchScreen.storyboard */; };
 		FEAE16F61D3D264400247B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAE16F41D3D264400247B96 /* AppDelegate.m */; };
 		FEF4C77E1D3E69AA0030B9C0 /* WLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C77D1D3E69AA0030B9C0 /* WLLoginViewController.m */; };
+		FEF4C7811D3FAA680030B9C0 /* WLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7801D3FAA680030B9C0 /* WLMainViewController.m */; };
+		FEF4C7871D3FAE2E0030B9C0 /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7841D3FAE2E0030B9C0 /* UIImage+Fit.m */; };
+		FEF4C7881D3FAE2E0030B9C0 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7861D3FAE2E0030B9C0 /* UIView+AdjustFrame.m */; };
+		FEF4C78B1D3FAE5C0030B9C0 /* WLDockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C78A1D3FAE5C0030B9C0 /* WLDockView.m */; };
+		FEF4C78F1D3FB4400030B9C0 /* WLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C78E1D3FB4400030B9C0 /* WLConst.m */; };
+		FEF4C7921D3FCA2E0030B9C0 /* WLBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7911D3FCA2E0030B9C0 /* WLBottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,19 @@
 		FEAE16F41D3D264400247B96 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FEF4C77C1D3E69AA0030B9C0 /* WLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLLoginViewController.h; sourceTree = "<group>"; };
 		FEF4C77D1D3E69AA0030B9C0 /* WLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLLoginViewController.m; sourceTree = "<group>"; };
+		FEF4C77F1D3FAA680030B9C0 /* WLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMainViewController.h; sourceTree = "<group>"; };
+		FEF4C7801D3FAA680030B9C0 /* WLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMainViewController.m; sourceTree = "<group>"; };
+		FEF4C7831D3FAE2E0030B9C0 /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		FEF4C7841D3FAE2E0030B9C0 /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		FEF4C7851D3FAE2E0030B9C0 /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		FEF4C7861D3FAE2E0030B9C0 /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		FEF4C7891D3FAE5C0030B9C0 /* WLDockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLDockView.h; sourceTree = "<group>"; };
+		FEF4C78A1D3FAE5C0030B9C0 /* WLDockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLDockView.m; sourceTree = "<group>"; };
+		FEF4C78C1D3FAEF00030B9C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FEF4C78D1D3FB4400030B9C0 /* WLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLConst.h; sourceTree = "<group>"; };
+		FEF4C78E1D3FB4400030B9C0 /* WLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLConst.m; sourceTree = "<group>"; };
+		FEF4C7901D3FCA2E0030B9C0 /* WLBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBottomView.h; sourceTree = "<group>"; };
+		FEF4C7911D3FCA2E0030B9C0 /* WLBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +83,9 @@
 				FEAE16DE1D3D141300247B96 /* LaunchScreen.storyboard */,
 				FEAE16E11D3D141300247B96 /* Info.plist */,
 				FEAE16D01D3D141300247B96 /* Supporting Files */,
+				FEF4C78C1D3FAEF00030B9C0 /* PrefixHeader.pch */,
+				FEF4C78D1D3FB4400030B9C0 /* WLConst.h */,
+				FEF4C78E1D3FB4400030B9C0 /* WLConst.m */,
 			);
 			path = QQZone;
 			sourceTree = "<group>";
@@ -79,6 +101,7 @@
 		FEAE16EF1D3D264300247B96 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FEF4C7821D3FAE2E0030B9C0 /* Category */,
 				FEAE16F01D3D264300247B96 /* Controller */,
 				FEAE16F11D3D264300247B96 /* Model */,
 				FEAE16F21D3D264300247B96 /* Other */,
@@ -92,6 +115,8 @@
 			children = (
 				FEF4C77C1D3E69AA0030B9C0 /* WLLoginViewController.h */,
 				FEF4C77D1D3E69AA0030B9C0 /* WLLoginViewController.m */,
+				FEF4C77F1D3FAA680030B9C0 /* WLMainViewController.h */,
+				FEF4C7801D3FAA680030B9C0 /* WLMainViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -115,8 +140,23 @@
 		FEAE16F51D3D264400247B96 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FEF4C7891D3FAE5C0030B9C0 /* WLDockView.h */,
+				FEF4C78A1D3FAE5C0030B9C0 /* WLDockView.m */,
+				FEF4C7901D3FCA2E0030B9C0 /* WLBottomView.h */,
+				FEF4C7911D3FCA2E0030B9C0 /* WLBottomView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FEF4C7821D3FAE2E0030B9C0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FEF4C7831D3FAE2E0030B9C0 /* UIImage+Fit.h */,
+				FEF4C7841D3FAE2E0030B9C0 /* UIImage+Fit.m */,
+				FEF4C7851D3FAE2E0030B9C0 /* UIView+AdjustFrame.h */,
+				FEF4C7861D3FAE2E0030B9C0 /* UIView+AdjustFrame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF4C7871D3FAE2E0030B9C0 /* UIImage+Fit.m in Sources */,
+				FEF4C7811D3FAA680030B9C0 /* WLMainViewController.m in Sources */,
 				FEF4C77E1D3E69AA0030B9C0 /* WLLoginViewController.m in Sources */,
+				FEF4C78B1D3FAE5C0030B9C0 /* WLDockView.m in Sources */,
 				FEAE16F61D3D264400247B96 /* AppDelegate.m in Sources */,
+				FEF4C7921D3FCA2E0030B9C0 /* WLBottomView.m in Sources */,
 				FEAE16D21D3D141300247B96 /* main.m in Sources */,
+				FEF4C78F1D3FB4400030B9C0 /* WLConst.m in Sources */,
+				FEF4C7881D3FAE2E0030B9C0 /* UIView+AdjustFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,10 +352,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = QQZone/PrefixHeader.pch;
 				INFOPLIST_FILE = QQZone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mineline.QQZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -318,10 +366,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = QQZone/PrefixHeader.pch;
 				INFOPLIST_FILE = QQZone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mineline.QQZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
