@@ -28,7 +28,6 @@
 - (void)setupDockView{
     WLDockView *dockView = [[WLDockView alloc] init];
     self.dockView = dockView;
-    dockView.backgroundColor = [UIColor redColor];
     
     dockView.height = self.view.height;
     //设置跟随父控件的变化而变化

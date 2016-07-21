@@ -19,6 +19,8 @@
 		FEF4C78B1D3FAE5C0030B9C0 /* WLDockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C78A1D3FAE5C0030B9C0 /* WLDockView.m */; };
 		FEF4C78F1D3FB4400030B9C0 /* WLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C78E1D3FB4400030B9C0 /* WLConst.m */; };
 		FEF4C7921D3FCA2E0030B9C0 /* WLBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7911D3FCA2E0030B9C0 /* WLBottomView.m */; };
+		FEF4C7951D4103660030B9C0 /* WLTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7941D4103660030B9C0 /* WLTabbar.m */; };
+		FEF4C7981D4108E90030B9C0 /* WLAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7971D4108E90030B9C0 /* WLAvatar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,10 @@
 		FEF4C78E1D3FB4400030B9C0 /* WLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLConst.m; sourceTree = "<group>"; };
 		FEF4C7901D3FCA2E0030B9C0 /* WLBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBottomView.h; sourceTree = "<group>"; };
 		FEF4C7911D3FCA2E0030B9C0 /* WLBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBottomView.m; sourceTree = "<group>"; };
+		FEF4C7931D4103660030B9C0 /* WLTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTabbar.h; sourceTree = "<group>"; };
+		FEF4C7941D4103660030B9C0 /* WLTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTabbar.m; sourceTree = "<group>"; };
+		FEF4C7961D4108E90030B9C0 /* WLAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAvatar.h; sourceTree = "<group>"; };
+		FEF4C7971D4108E90030B9C0 /* WLAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAvatar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,10 @@
 				FEF4C78A1D3FAE5C0030B9C0 /* WLDockView.m */,
 				FEF4C7901D3FCA2E0030B9C0 /* WLBottomView.h */,
 				FEF4C7911D3FCA2E0030B9C0 /* WLBottomView.m */,
+				FEF4C7931D4103660030B9C0 /* WLTabbar.h */,
+				FEF4C7941D4103660030B9C0 /* WLTabbar.m */,
+				FEF4C7961D4108E90030B9C0 /* WLAvatar.h */,
+				FEF4C7971D4108E90030B9C0 /* WLAvatar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +243,8 @@
 			files = (
 				FEF4C7871D3FAE2E0030B9C0 /* UIImage+Fit.m in Sources */,
 				FEF4C7811D3FAA680030B9C0 /* WLMainViewController.m in Sources */,
+				FEF4C7951D4103660030B9C0 /* WLTabbar.m in Sources */,
+				FEF4C7981D4108E90030B9C0 /* WLAvatar.m in Sources */,
 				FEF4C77E1D3E69AA0030B9C0 /* WLLoginViewController.m in Sources */,
 				FEF4C78B1D3FAE5C0030B9C0 /* WLDockView.m in Sources */,
 				FEAE16F61D3D264400247B96 /* AppDelegate.m in Sources */,
