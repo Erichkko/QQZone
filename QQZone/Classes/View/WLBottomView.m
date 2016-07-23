@@ -15,7 +15,9 @@
 {
     if (self = [super initWithFrame:frame]) {
         self.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
-        [self addSubViews];
+        [self addSubViewImage:@"tabbar_blog" typeName:WLBottomMenuItemBlog];
+        [self addSubViewImage:@"tabbar_mood" typeName:WLBottomMenuItemMood];
+        [self addSubViewImage:@"tabbar_photo" typeName:WLBottomMenuItemPhoto];
     }
     return self;
 }
@@ -51,14 +53,21 @@
     }
 }
 
-- (void)addSubViews
+- (void)addSubViewImage:(NSString *)imageName typeName:(WLBottomMenuItemType)itemType
 {
-    NSArray *menus = @[@"tabbar_blog",@"tabbar_mood",@"tabbar_photo"];
-    for (int i = 0; i < kBottomMenuCount; i++) {
         UIButton *btn = [[UIButton alloc] init];
-        [btn setImage:[UIImage imageNamed:menus[i]] forState:UIControlStateNormal];
+        btn.tag = itemType;
+        [btn setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
         [btn setBackgroundImage:[UIImage imageNamed:@"tabbar_separate_selected_bg"] forState:UIControlStateHighlighted];
+    [btn addTarget:self action:@selector(cliclBtn:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:btn];
+  
+}
+
+- (void)cliclBtn:(UIButton *)btn
+{
+    if ([self.delegate respondsToSelector:@selector(bottomView:type:)]) {
+        [self.delegate bottomView:self type:(int)btn.tag];
     }
 }
 @end

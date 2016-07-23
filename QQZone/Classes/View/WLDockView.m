@@ -12,12 +12,6 @@
 #import "WLAvatar.h"
 
 @interface WLDockView()
-/** bottomView */
-@property(nonatomic,weak) WLBottomView *bottomView;
-/** tabbar */
-@property(nonatomic,weak)  WLTabbar *tabbar;
-/** avatar */
-@property(nonatomic,weak) WLAvatar *avatar;
 
 @end
 @implementation WLDockView
@@ -37,13 +31,13 @@
 - (void)setupAvatar
 {
     WLAvatar *avatar = [[WLAvatar alloc] init];
-    self.avatar = avatar;
+    _avatar = avatar;
     [self addSubview:avatar];
 }
 - (void)setupTabbar
 {
     WLTabbar *tabbar = [[WLTabbar alloc] init];
-    self.tabbar = tabbar;
+    _tabbar = tabbar;
     tabbar.backgroundColor = [UIColor blueColor];
     [self addSubview:tabbar];
     
@@ -52,7 +46,7 @@
 - (void)setupBottomView
 {
     WLBottomView *bottomView = [[WLBottomView alloc] init];
-    self.bottomView = bottomView;
+    _bottomView = bottomView;
     [self addSubview:bottomView];
 }
 

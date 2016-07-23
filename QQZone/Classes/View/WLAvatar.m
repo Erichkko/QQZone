@@ -18,7 +18,7 @@
         self.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
         [self setImage:[UIImage imageNamed:@"Easy"] forState:UIControlStateNormal];
-        [self setTitle:@"Ez" forState:UIControlStateNormal];
+        [self setTitle:@"WangLong" forState:UIControlStateNormal];
     }
     return self;
 }
@@ -30,19 +30,43 @@
     self.y = kAvatarMargin;
 }
 
+
+- (CGRect)imageRectForContentRect:(CGRect)contentRect
+{
+    if (self.width == self.height) {
+        return self.bounds;
+    }else{
+        CGFloat width= self.width;
+        CGFloat height= width;
+        CGFloat x= 0;
+        CGFloat y= 0;
+        return CGRectMake(x, y, width, height);
+    }
+}
+
+- (CGRect) titleRectForContentRect:(CGRect)contentRect
+{
+    if (self.width == self.height) {
+        return CGRectZero;
+    }else{
+        CGFloat width= self.width;
+        CGFloat height= kAvatarNameH;
+        CGFloat x= 0;
+        CGFloat y= width;
+        return CGRectMake(x, y, width, height);
+    }
+}
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
-    self.imageView.width = self.width;
-    self.imageView.height = self.imageView.width;
-    
-    self.titleLabel.height = kAvatarNameH;
-    self.titleLabel.width = self.width;
-    self.titleLabel.y = self.imageView.height;
-    self.titleLabel.x = 0;
-//    设置圆形头像
-//    self.imageView.layer.cornerRadius = self.imageView.width * 0.5;
-//    self.imageView.clipsToBounds = YES;
+
+    if (self.width == self.height) {
+        self.imageView.layer.cornerRadius = 0;
+    }else{
+//        设置圆形头像
+        self.imageView.layer.cornerRadius = self.imageView.width * 0.5;
+        self.imageView.clipsToBounds = YES;
+    }
+
 }
 @end

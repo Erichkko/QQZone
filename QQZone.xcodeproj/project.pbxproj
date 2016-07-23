@@ -21,6 +21,8 @@
 		FEF4C7921D3FCA2E0030B9C0 /* WLBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7911D3FCA2E0030B9C0 /* WLBottomView.m */; };
 		FEF4C7951D4103660030B9C0 /* WLTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7941D4103660030B9C0 /* WLTabbar.m */; };
 		FEF4C7981D4108E90030B9C0 /* WLAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C7971D4108E90030B9C0 /* WLAvatar.m */; };
+		FEF4C79B1D424FFE0030B9C0 /* WLBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C79A1D424FFE0030B9C0 /* WLBar.m */; };
+		FEF4C79E1D426E370030B9C0 /* WLMoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4C79D1D426E370030B9C0 /* WLMoodViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,10 @@
 		FEF4C7941D4103660030B9C0 /* WLTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTabbar.m; sourceTree = "<group>"; };
 		FEF4C7961D4108E90030B9C0 /* WLAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAvatar.h; sourceTree = "<group>"; };
 		FEF4C7971D4108E90030B9C0 /* WLAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAvatar.m; sourceTree = "<group>"; };
+		FEF4C7991D424FFE0030B9C0 /* WLBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBar.h; sourceTree = "<group>"; };
+		FEF4C79A1D424FFE0030B9C0 /* WLBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBar.m; sourceTree = "<group>"; };
+		FEF4C79C1D426E370030B9C0 /* WLMoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMoodViewController.h; sourceTree = "<group>"; };
+		FEF4C79D1D426E370030B9C0 /* WLMoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMoodViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,8 @@
 				FEF4C77D1D3E69AA0030B9C0 /* WLLoginViewController.m */,
 				FEF4C77F1D3FAA680030B9C0 /* WLMainViewController.h */,
 				FEF4C7801D3FAA680030B9C0 /* WLMainViewController.m */,
+				FEF4C79C1D426E370030B9C0 /* WLMoodViewController.h */,
+				FEF4C79D1D426E370030B9C0 /* WLMoodViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,6 +162,8 @@
 				FEF4C7941D4103660030B9C0 /* WLTabbar.m */,
 				FEF4C7961D4108E90030B9C0 /* WLAvatar.h */,
 				FEF4C7971D4108E90030B9C0 /* WLAvatar.m */,
+				FEF4C7991D424FFE0030B9C0 /* WLBar.h */,
+				FEF4C79A1D424FFE0030B9C0 /* WLBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -245,8 +255,10 @@
 				FEF4C7811D3FAA680030B9C0 /* WLMainViewController.m in Sources */,
 				FEF4C7951D4103660030B9C0 /* WLTabbar.m in Sources */,
 				FEF4C7981D4108E90030B9C0 /* WLAvatar.m in Sources */,
+				FEF4C79E1D426E370030B9C0 /* WLMoodViewController.m in Sources */,
 				FEF4C77E1D3E69AA0030B9C0 /* WLLoginViewController.m in Sources */,
 				FEF4C78B1D3FAE5C0030B9C0 /* WLDockView.m in Sources */,
+				FEF4C79B1D424FFE0030B9C0 /* WLBar.m in Sources */,
 				FEAE16F61D3D264400247B96 /* AppDelegate.m in Sources */,
 				FEF4C7921D3FCA2E0030B9C0 /* WLBottomView.m in Sources */,
 				FEAE16D21D3D141300247B96 /* main.m in Sources */,

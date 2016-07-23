@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class WLBottomView;
+@class WLTabbar;
+@class WLAvatar;
 @interface WLDockView : UIView
+
+/** bottomView */
+@property(nonatomic,weak,readonly) WLBottomView *bottomView;
+/** tabbar */
+@property(nonatomic,weak,readonly) WLTabbar *tabbar;
+/** avatar */
+@property(nonatomic,weak,readonly) WLAvatar *avatar;
+
+
 - (void)rotateToLandscape:(BOOL)isLandscape;
 @end
