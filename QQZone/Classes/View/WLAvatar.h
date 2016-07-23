@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface WLAvatar : UIButton
 - (void)rotateToLandscape:(BOOL)isLandscape;
 @end

@@ -38,7 +38,6 @@
 {
     WLTabbar *tabbar = [[WLTabbar alloc] init];
     _tabbar = tabbar;
-    tabbar.backgroundColor = [UIColor blueColor];
     [self addSubview:tabbar];
     
 }
